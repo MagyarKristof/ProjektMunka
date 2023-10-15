@@ -21,9 +21,12 @@
 <body>
 	<nav>
 		<ul class="navList">
-			<?php foreach ($navbar as $page_name => $nav_item) { ?>
+			<?php foreach ($navbar as $page_name => $nav_item) { 
+				if(isset($_SESSION['username']) || !isset($_SESSION['username']) && $nav_item['authorized']){ ?>
 				<li class=navListItem>
-					<a href="./?page=<?= $nav_item["file"] ?>"> <?= $nav_item["text"] ?> </a> </li> <?php } ?> </ul>
+					<a href="./?page=<?= $nav_item["file"] ?>"> <?= $nav_item["text"] ?> </a> </li> <?php 
+					}
+				} ?> </ul>
 	</nav>
 	<?php include("./sites/{$page}.php"); ?>
 

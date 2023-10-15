@@ -1,6 +1,6 @@
 <nonprofit>
 	<div id="imgCont">
-		<img src="https://www.karitativ.hu/wp-content/uploads/2020/01/top1%C3%BAj-1.jpg" alt="logo">
+		<img src="https://www.karitativ.hu/wp-content/uploads/2020/01/top1%C3%BAj-1.jpg" alt="logo" >
 	</div>
 	<div id="mainContent">
 		<div id="tableContainer">
@@ -110,11 +110,14 @@
 				</tr>
 				
 			</table>
+			
+			<p>
 			<br>
-			<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2691.146730999184!2d19.045613476759623!3d47.58438798951064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741d9c1a502f723%3A0x5c1ef38f10f8b1e3!2sBudapest%2C%20Lehel%20u.%2015%2C%201039!5e0!3m2!1shu!2shu!4v1696607066556!5m2!1shu!2shu" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen></iframe>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2691.146730999184!2d19.045613476759623!3d47.58438798951064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741d9c1a502f723%3A0x5c1ef38f10f8b1e3!2sBudapest%2C%20Lehel%20u.%2015%2C%201039!5e0!3m2!1shu!2shu!4v1696607066556!5m2!1shu!2shu"  frameborder="0" style="border:0; aspect-ratio: 4/3; max-width 600px; width: 100% " allowfullscreen></iframe>
             <br>
             <a target="_blank" href="https://www.google.com/maps/place/Budapest,+Lehel+u.+15,+1039/@47.584388,19.0456135,17z/data=!3m1!4b1!4m6!3m5!1s0x4741d9c1a502f723:0x5c1ef38f10f8b1e3!8m2!3d47.5843844!4d19.0481884!16s%2Fg%2F11gh4m4pht?entry=ttu">Nagyobb térkép</a>
-    		</p> 
+    		
+			</p> 
 		</div>
 		
 	</div>
